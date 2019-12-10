@@ -1,0 +1,46 @@
+//
+
+Cet exercice doit être fait SANS utiliser d'IDE (IntellIJ/NetBeans ou Eclipse), l'objectif étant de tester les
+commandes rattachées à l'environnement Java.
+a) Construire à l'aide d'un éditeur comme SublimeText, Atom ou n'importe quel éditeur un programme
+Example qui affiche la liste numérotée des arguments de la ligne de commande. Définir cette classe dans le
+package labs.one.parta.
+b) Utiliser la ligne de commande et compiler avec : javac labs.one.parta.Example.java (aller regarder
+l'arborescence construite)
+c) Toujours sur la ligne de commande, exécuter le programme avec :
+java labs.one.Example value1 "value2 with spaces" value3
+Remarque : en cas de nécessité, il est possible de rajouter aussi bien à javac qu'à java un paramètre -cp
+"chemins" pour définir les répertoires de recherche de package et de classes.
+
+//
+
+a ) 
+package labs.one.parta;
+
+public class Args {
+    public static void main(String[] args) {
+		System.out.print(args.length);
+        }
+b) 	javac -d . Test.java
+c) ok
+
+Exercice 1) 
+
+a) False 10
+b) 
+c)NullPointerException
+d) 12
+
+2) iabd3
+3) 
+un premier texte
+un deuxieme texte
+un deuxieme texte texte a concatener en string
+construction sbuffer texte a concatener en sbuffer
+construction sbuffer 2
+simple construction
+4) 
+
+Exercce 2) 2 classes dans le dépot
+
+
